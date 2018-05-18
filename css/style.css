@@ -8,13 +8,15 @@ html {
   position: relative;
   top: 0;
   left: 0;
+  overflow: hidden;
 }
 
 .back {
   z-index: -1;
   position: relative;
-  top: 45%;
+  top: 25%;
   left: 0;
+  margin: 0 auto;
 }
 
 .midground {
@@ -22,4 +24,23 @@ html {
   position: absolute;
   top: 0px;
   left: 0px;
+}
+
+
+@media only screen and (min-width: 768px) {
+.back {
+  z-index: -1;
+  position: relative;
+  top: 45%;
+  left: 0;
+  margin: 0 auto;
+}
+
+.midground {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 }
