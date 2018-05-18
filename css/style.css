@@ -34,6 +34,10 @@ footer a {
   color: #efb501;
 }
 
+.videogame a {
+  color: #efb501;
+}
+
 .back {
   z-index: -1;
   position: relative;
