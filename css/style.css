@@ -11,6 +11,29 @@ html {
   overflow: hidden;
 }
 
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    color: #efb501;
+}
+
+footer a {
+  color: #fff;
+}
+
+.dogh {
+  margin-top: 15%;
+  color: #00FFFF;
+}
+
+.videogame {
+  margin-top: 10%;
+  color: #efb501;
+}
+
 .back {
   z-index: -1;
   position: relative;
