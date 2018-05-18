@@ -99,6 +99,95 @@ footer a {
   height: 100%;
 }
 
+@media only screen and (min-width: 600px) {
+.contentcontainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  .titlecontainer {
+    z-index: 2;
+    margin-top: 10%;
+  }
+
+  .backgroundcontainer {
+    z-index: -1;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .crygif {
+    z-index: -2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -10%;
+  }
+
+.midground {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 105%;
+}
+
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape) {
+    .contentcontainer {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        flex-direction: column;
+      }
+
+      .titlecontainer {
+        z-index: 2;
+        margin-top: 10%;
+      }
+
+      .backgroundcontainer {
+        z-index: -1;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .crygif {
+        z-index: -2;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-top: -25%;
+      }
+
+    .midground {
+      z-index: 0;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 105%;
+    }
+
+  }
+
 
 @media only screen and (min-width: 768px) {
 .contentcontainer {
