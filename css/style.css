@@ -20,17 +20,12 @@ html {
   background-color: #3cbcfc;
 }
 
-#myVideo {
-    z-index: -4;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-}
-
 * {
   cursor: url('../img/crosshair.png'), default;
+}
+
+*:active {
+  cursor: url('../img/bang.png'), default;
 }
 
 footer {
