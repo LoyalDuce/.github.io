@@ -21,7 +21,7 @@ html {
 }
 
 #myVideo {
-    z-index: -2;
+    z-index: -4;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -149,6 +149,15 @@ footer a {
   width: 105%;
 }
 
+#myVideo {
+    z-index: -4;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
 }
 
 @media only screen
@@ -195,6 +204,15 @@ footer a {
       width: 105%;
     }
 
+    #myVideo {
+        z-index: -4;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+
   }
 
 
@@ -237,6 +255,15 @@ footer a {
   top: 0px;
   left: 0px;
   width: 105%;
+}
+
+#myVideo {
+    z-index: -4;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 }
