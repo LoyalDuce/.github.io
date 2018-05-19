@@ -20,6 +20,15 @@ html {
   background-color: #3cbcfc;
 }
 
+#myVideo {
+    z-index: -2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 * {
   cursor: url('../img/crosshair.png'), default;
 }
@@ -158,7 +167,7 @@ footer a {
 
       .titlecontainer {
         z-index: 2;
-        margin-top: 10%;
+        margin-top: 5%;
       }
 
       .backgroundcontainer {
