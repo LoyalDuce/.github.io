@@ -44,8 +44,8 @@ footer a {
 
 .contentcontainer {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -80,7 +80,7 @@ footer a {
 
 .backgroundcontainer {
   display: flex;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
 }
@@ -106,8 +106,8 @@ footer a {
 @media only screen and (min-width: 768px) {
 .contentcontainer {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -122,7 +122,7 @@ footer a {
   .backgroundcontainer {
     z-index: -1;
     display: flex;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
   }
