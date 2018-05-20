@@ -58,6 +58,8 @@ footer a {
 }
 
 .titlecontainer {
+  position: relative;
+  z-index: 2;
   margin-top: 5%;
   flex-direction: column;
   justify-content: center;
