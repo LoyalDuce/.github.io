@@ -60,13 +60,15 @@ footer a {
 
 .abs-center-x {
     position: relative;
-    z-index: 2;
+    z-index: 4;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .abs-center-x a {
   font-size: 14px;
+  position: relative;
+  z-index: 4;
   color: #efb501;
   font-family: '8bit_wondernominal', Courier;
 }
