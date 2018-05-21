@@ -32,17 +32,8 @@ body {
 }
 
 #myVideo {
-<<<<<<< HEAD
   display: none;
   z-index: -4;
-=======
-    z-index: -2;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100vw;
-    min-height: 100vh;
->>>>>>> parent of 97cc51c... v0.28
 }
 
 * {
@@ -137,7 +128,7 @@ footer a {
 }
 
 .crygif {
-  z-index: 0;
+  z-index: 1;
   position: absolute;
   left: -45px;
   right: 0;
@@ -145,7 +136,7 @@ footer a {
 }
 
 .midground {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   top: 0px;
   left: -225px;
@@ -192,7 +183,6 @@ footer a {
   }
 
   .backgroundcontainer {
-    z-index: 0;
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -201,15 +191,15 @@ footer a {
   }
 
   .crygif {
-    z-index: 0;
     position: absolute;
+    z-index: 1;
     left: 0;
     right: 0;
     margin: 0 auto;
   }
 
 .midground {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   top: 0px;
   left: 0px;
