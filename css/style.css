@@ -32,8 +32,17 @@ body {
 }
 
 #myVideo {
+<<<<<<< HEAD
   display: none;
   z-index: -4;
+=======
+    z-index: -2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+>>>>>>> parent of 97cc51c... v0.28
 }
 
 * {
