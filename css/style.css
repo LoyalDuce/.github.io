@@ -86,7 +86,7 @@ footer a {
 
 .titlecontainer {
   position: relative;
-  z-index: 2;
+  z-index: 4;
   margin-top: 1%;
   flex-direction: column;
   justify-content: center;
