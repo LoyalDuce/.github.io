@@ -159,7 +159,7 @@ footer a {
 
 .backgroundcontainer {
   display: flex;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   margin-top: -50%;
@@ -212,7 +212,6 @@ footer a {
     left: 0;
     overflow: hidden;
     flex-direction: column;
-    justify-content: center;
   }
 
   .aboutcontainer {
@@ -240,16 +239,23 @@ footer a {
 
   .titlecontainer {
     z-index: 2;
+<<<<<<< HEAD
     margin-top: 4%;
+=======
+    margin-top: 10%;
+>>>>>>> parent of f814663... v0.282
   }
 
   .backgroundcontainer {
     z-index: -0;
     display: flex;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
+<<<<<<< HEAD
     margin-top: -2%;
+=======
+>>>>>>> parent of f814663... v0.282
   }
 
   .crygif {
