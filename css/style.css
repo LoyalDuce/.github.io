@@ -75,6 +75,7 @@ footer a {
 }
 
 .contentcontainer {
+  position: relative;
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -89,17 +90,17 @@ footer a {
   z-index: 2;
   flex-direction: column;
   justify-content: center;
-  height: 75vh;
-  width: 75vw;
+  height: 75vw;
+  width: 75vh;
 }
 
 .musiccontainer {
   position: relative;
-  z-index: 2;
+  z-index: 4;
   flex-direction: column;
   justify-content: center;
-  height: 75vh;
-  width: 75vw;
+  height: 75vw;
+  width: 75vh;;
   margin-top: 10%;
 }
 
@@ -219,8 +220,8 @@ footer a {
     z-index: 2;
     flex-direction: column;
     justify-content: center;
-    height: 30vh;
-    width: 30vw;
+    height: 30%;
+    width: 30%;
     margin-top: 10%;
   }
 
@@ -229,8 +230,8 @@ footer a {
     z-index: 2;
     flex-direction: column;
     justify-content: center;
-    height: 30vh;
-    width: 30vw;
+    height: 30%;
+    width: 30%;
   }
 
   .musiccontainer iframe {
@@ -248,7 +249,7 @@ footer a {
     height: 100vh;
     flex-direction: column;
     justify-content: center;
-    margin-top: -8%;
+    margin-top: -2%;
   }
 
   .crygif {
