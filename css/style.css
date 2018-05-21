@@ -32,12 +32,7 @@ body {
 }
 
 #myVideo {
-  position: fixed;
-  z-index: -3;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  display: none;
 }
 
 * {
@@ -64,6 +59,7 @@ footer a {
 
 .abs-center-x {
     position: relative;
+    z-index: 4;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -152,6 +148,7 @@ footer a {
 
 
   #myVideo {
+    display: flex;
     position: fixed;
     z-index: -3;
     right: 0;
