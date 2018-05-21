@@ -17,12 +17,27 @@
 }
 
 html {
-  background-color: #3cbcfc;
+  background: url('https://i.imgur.com/c5Mk14y.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: transparent;
 }
 
 body {
   height: 100vh;
   width: 100vw;
+  background-color: transparent;
+}
+
+#myVideo {
+  position: fixed;
+  z-index: -3;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 * {
@@ -45,6 +60,18 @@ footer {
 
 footer a {
   color: #fff;
+}
+
+.abs-center-x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.abs-center-x a {
+  font-size: 14px;
+  color: #efb501;
+  font-family: '8bit_wondernominal', Courier;
 }
 
 .contentcontainer {
@@ -113,6 +140,26 @@ footer a {
 }
 
 @media only screen and (min-width: 768px) {
+
+  html {
+    background: url('https://i.imgur.com/c5Mk14y.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: transparent;
+  }
+
+
+  #myVideo {
+    position: fixed;
+    z-index: -3;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 .contentcontainer {
     display: flex;
     width: 100vw;
@@ -134,7 +181,7 @@ footer a {
     height: 100vh;
     flex-direction: column;
     justify-content: center;
-    margin-top: -5%;
+    margin-top: -8%;
   }
 
   .crygif {
